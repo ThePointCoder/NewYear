@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+    <style>
+        *{box-sizing: border-box;margin:auto;padding: 0px;}
+        #video{position: fixed;top: -10vh;margin:auto;min-width: 100%;}
+        #intro{position: fixed;left: 27vw;top: 37vh;margin: auto;color: hsla(0, 100%, 100%, 0.0);font-family: 'Mountains of Christmas', cursive;
+            text-align:center;font-size: 8rem; font-weight: bold;animation: neon 1.5s ease-in-out infinite alternate;text-transform: uppercase;}
+        
+        @keyframes neon {
+            from {
+                text-shadow: 0 0 0px #fff,
+                        0 0 20px  #fff,
+                        0 0 30px  #fff,
+                        0 0 40px  lightpink,
+                        0 0 70px  lightpink,
+                        0 0 80px  lightpink,
+                        0 0 100px lightgoldenrodyellow,
+                        0 0 135px lightgoldenrodyellow;
+            }
+            to {
+                text-shadow: 0 0 0px #fff,
+                        0 0 10px #fff,
+                        0 0 15px #fff,
+                        0 0 20px paleturquoise,
+                        0 0 35px paleturquoise,
+                        0 0 40px paleturquoise,
+                        0 0 50px lavender,
+                        0 0 80px lavender;
+            }
+        }
+    </style>
+    <title>Happy New Year!</title>
+</head>
+<body>
+    <video autoplay muted loop id="video"><source src="./NightCityLights.webm" type="video/mp4"></video>
+    <div id="intro">
+        Happy New Year !
+    </div>
+</body>
+</html>
